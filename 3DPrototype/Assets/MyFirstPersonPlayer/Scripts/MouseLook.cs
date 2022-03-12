@@ -1,3 +1,10 @@
+/*
+ * Zechariah Burrus
+ * Assignment 5B
+ * Allows the player to move their mouse to control the camera
+ * and doesn't allow them to go beyone 90 degree's.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

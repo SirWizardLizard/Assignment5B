@@ -1,3 +1,10 @@
+/*
+ * Zechariah Burrus
+ * Assignment 5B
+ * Allows the player to shoot at targets using a raycast
+ * Also scales what's hit down for fun.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,7 +16,6 @@ public class ShootWithRaycasts : MonoBehaviour {
     public Camera cam;
 
     public ParticleSystem muzzleFlash;
-
     // Update is called once per frame
     void Update() {
         if(Input.GetButtonDown("Fire1")) { Shoot(); }

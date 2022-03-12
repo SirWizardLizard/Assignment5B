@@ -1,6 +1,13 @@
+/*
+ * Zechariah Burrus
+ * Assignment 5B
+ * Player controller including gravity 
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour {
     private CharacterController controller;
